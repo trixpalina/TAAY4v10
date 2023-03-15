@@ -1,0 +1,62 @@
+.hintimage {
+	height: 38%; 
+	width: 38%;
+	
+	margin: 0.4em;
+	-webkit-transition: all 0.2s ease;
+	cursor: pointer;
+}
+
+.hintimage:hover {
+	box-shadow: 0 0 4px #191970, 0 0 6px #191970, 0 0 10px #191970, 0 0 12px #191970, 0 0 15px #191970, 0 0 20px #191970, 0 0 30px #191970, 0 0 50px #191970;
+}
+
+#fullimage {
+	height: 81.7%;
+	width: 81.7%;
+	-webkit-transition: all 0.2s ease;
+	margin: 0.4em;
+}
+
+#fullimagediv {
+	display: none;
+}
+
+.blank {
+	font-weight: bold;
+	font-size: 50px;
+	border: 2px solid black;
+	display: inline-block;
+	width: 60px;
+	height: 80px;
+	cursor: pointer;
+}
+
+#hintbutton {
+	 display: inline-block;
+	 float: right;
+	 cursor: pointer;
+}
+
+#hintbutton:hover {
+	color: #FFFACD;
+	-webkit-text-stroke: 0.1em #000000;
+}
+
+
+.letter {
+	font-weight: bold;
+	font-size: 25px;
+	border: 2px solid black;
+	display: inline-block;
+	width: 10%;
+	cursor: pointer;
+	background: #1A1F34;
+	color: white;
+	-webkit-transition:all 0.1s ease;
+}
+
+.letter:hover {
+	color:#DAA520;
+	background: #000080;
+}
